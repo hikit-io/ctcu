@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F5DD4329473FBE003B5F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5DD4229473FBE003B5F63 /* AppDelegate.swift */; };
+		15F5DD4729473FBE003B5F63 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD4529473FBE003B5F63 /* Main.html */; };
+		15F5DD4929473FBE003B5F63 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD4829473FBE003B5F63 /* Icon.png */; };
+		15F5DD4B29473FBE003B5F63 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD4A29473FBE003B5F63 /* Style.css */; };
+		15F5DD4D29473FBE003B5F63 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD4C29473FBE003B5F63 /* Script.js */; };
+		15F5DD4F29473FBE003B5F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5DD4E29473FBE003B5F63 /* ViewController.swift */; };
+		15F5DD5229473FBE003B5F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD5029473FBE003B5F63 /* Main.storyboard */; };
+		15F5DD5429473FBF003B5F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD5329473FBF003B5F63 /* Assets.xcassets */; };
+		15F5DD5C29473FBF003B5F63 /* Ctcu Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15F5DD5B29473FBF003B5F63 /* Ctcu Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15F5DD6129473FBF003B5F63 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5DD6029473FBF003B5F63 /* SafariExtensionHandler.swift */; };
+		15F5DD6329473FBF003B5F63 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5DD6229473FBF003B5F63 /* SafariExtensionViewController.swift */; };
+		15F5DD6629473FBF003B5F63 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD6529473FBF003B5F63 /* script.js */; };
+		15F5DD6829473FBF003B5F63 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD6729473FBF003B5F63 /* ToolbarItemIcon.pdf */; };
+		15F5DD6B29473FBF003B5F63 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F5DD6929473FBF003B5F63 /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15F5DD5D29473FBF003B5F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15F5DD3729473FBE003B5F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15F5DD5A29473FBF003B5F63;
+			remoteInfo = "Ctcu Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15F5DD7329473FBF003B5F63 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15F5DD5C29473FBF003B5F63 /* Ctcu Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15F5DD3F29473FBE003B5F63 /* Ctcu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ctcu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F5DD4229473FBE003B5F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15F5DD4629473FBE003B5F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		15F5DD4829473FBE003B5F63 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		15F5DD4A29473FBE003B5F63 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		15F5DD4C29473FBE003B5F63 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		15F5DD4E29473FBE003B5F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15F5DD5129473FBE003B5F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15F5DD5329473FBF003B5F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F5DD5529473FBF003B5F63 /* Ctcu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ctcu.entitlements; sourceTree = "<group>"; };
+		15F5DD5629473FBF003B5F63 /* Ctcu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ctcu.entitlements; sourceTree = "<group>"; };
+		15F5DD5B29473FBF003B5F63 /* Ctcu Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ctcu Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F5DD6029473FBF003B5F63 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		15F5DD6229473FBF003B5F63 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		15F5DD6529473FBF003B5F63 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		15F5DD6729473FBF003B5F63 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		15F5DD6A29473FBF003B5F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		15F5DD6C29473FBF003B5F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F5DD6D29473FBF003B5F63 /* Ctcu_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ctcu_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15F5DD3C29473FBE003B5F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F5DD5829473FBF003B5F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F5DD3629473FBE003B5F63 = {
+			isa = PBXGroup;
+			children = (
+				15F5DD4129473FBE003B5F63 /* Ctcu */,
+				15F5DD5F29473FBF003B5F63 /* Ctcu Extension */,
+				15F5DD4029473FBE003B5F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15F5DD4029473FBE003B5F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15F5DD3F29473FBE003B5F63 /* Ctcu.app */,
+				15F5DD5B29473FBF003B5F63 /* Ctcu Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15F5DD4129473FBE003B5F63 /* Ctcu */ = {
+			isa = PBXGroup;
+			children = (
+				15F5DD4229473FBE003B5F63 /* AppDelegate.swift */,
+				15F5DD4E29473FBE003B5F63 /* ViewController.swift */,
+				15F5DD5029473FBE003B5F63 /* Main.storyboard */,
+				15F5DD5329473FBF003B5F63 /* Assets.xcassets */,
+				15F5DD5529473FBF003B5F63 /* Ctcu.entitlements */,
+				15F5DD5629473FBF003B5F63 /* Ctcu.entitlements */,
+				15F5DD4429473FBE003B5F63 /* Resources */,
+			);
+			path = Ctcu;
+			sourceTree = "<group>";
+		};
+		15F5DD4429473FBE003B5F63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15F5DD4529473FBE003B5F63 /* Main.html */,
+				15F5DD4829473FBE003B5F63 /* Icon.png */,
+				15F5DD4A29473FBE003B5F63 /* Style.css */,
+				15F5DD4C29473FBE003B5F63 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15F5DD5F29473FBF003B5F63 /* Ctcu Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15F5DD6029473FBF003B5F63 /* SafariExtensionHandler.swift */,
+				15F5DD6229473FBF003B5F63 /* SafariExtensionViewController.swift */,
+				15F5DD6929473FBF003B5F63 /* SafariExtensionViewController.xib */,
+				15F5DD6C29473FBF003B5F63 /* Info.plist */,
+				15F5DD6D29473FBF003B5F63 /* Ctcu_Extension.entitlements */,
+				15F5DD6429473FBF003B5F63 /* Resources */,
+			);
+			path = "Ctcu Extension";
+			sourceTree = "<group>";
+		};
+		15F5DD6429473FBF003B5F63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15F5DD6529473FBF003B5F63 /* script.js */,
+				15F5DD6729473FBF003B5F63 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15F5DD3E29473FBE003B5F63 /* Ctcu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F5DD7429473FBF003B5F63 /* Build configuration list for PBXNativeTarget "Ctcu" */;
+			buildPhases = (
+				15F5DD3B29473FBE003B5F63 /* Sources */,
+				15F5DD3C29473FBE003B5F63 /* Frameworks */,
+				15F5DD3D29473FBE003B5F63 /* Resources */,
+				15F5DD7329473FBF003B5F63 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F5DD5E29473FBF003B5F63 /* PBXTargetDependency */,
+			);
+			name = Ctcu;
+			productName = Ctcu;
+			productReference = 15F5DD3F29473FBE003B5F63 /* Ctcu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15F5DD5A29473FBF003B5F63 /* Ctcu Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F5DD7029473FBF003B5F63 /* Build configuration list for PBXNativeTarget "Ctcu Extension" */;
+			buildPhases = (
+				15F5DD5729473FBF003B5F63 /* Sources */,
+				15F5DD5829473FBF003B5F63 /* Frameworks */,
+				15F5DD5929473FBF003B5F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ctcu Extension";
+			productName = "Ctcu Extension";
+			productReference = 15F5DD5B29473FBF003B5F63 /* Ctcu Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15F5DD3729473FBE003B5F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					15F5DD3E29473FBE003B5F63 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					15F5DD5A29473FBF003B5F63 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 15F5DD3A29473FBE003B5F63 /* Build configuration list for PBXProject "Ctcu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15F5DD3629473FBE003B5F63;
+			productRefGroup = 15F5DD4029473FBE003B5F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15F5DD3E29473FBE003B5F63 /* Ctcu */,
+				15F5DD5A29473FBF003B5F63 /* Ctcu Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15F5DD3D29473FBE003B5F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F5DD4929473FBE003B5F63 /* Icon.png in Resources */,
+				15F5DD5229473FBE003B5F63 /* Main.storyboard in Resources */,
+				15F5DD4D29473FBE003B5F63 /* Script.js in Resources */,
+				15F5DD4729473FBE003B5F63 /* Main.html in Resources */,
+				15F5DD5429473FBF003B5F63 /* Assets.xcassets in Resources */,
+				15F5DD4B29473FBE003B5F63 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F5DD5929473FBF003B5F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F5DD6B29473FBF003B5F63 /* SafariExtensionViewController.xib in Resources */,
+				15F5DD6829473FBF003B5F63 /* ToolbarItemIcon.pdf in Resources */,
+				15F5DD6629473FBF003B5F63 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15F5DD3B29473FBE003B5F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F5DD4F29473FBE003B5F63 /* ViewController.swift in Sources */,
+				15F5DD4329473FBE003B5F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15F5DD5729473FBF003B5F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F5DD6329473FBF003B5F63 /* SafariExtensionViewController.swift in Sources */,
+				15F5DD6129473FBF003B5F63 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15F5DD5E29473FBF003B5F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15F5DD5A29473FBF003B5F63 /* Ctcu Extension */;
+			targetProxy = 15F5DD5D29473FBF003B5F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15F5DD4529473FBE003B5F63 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F5DD4629473FBE003B5F63 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		15F5DD5029473FBE003B5F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F5DD5129473FBE003B5F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15F5DD6929473FBF003B5F63 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F5DD6A29473FBF003B5F63 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15F5DD6E29473FBF003B5F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15F5DD6F29473FBF003B5F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		15F5DD7129473FBF003B5F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ctcu Extension/Ctcu_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q8B34FN8L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ctcu Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ctcu Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hikit.Ctcu.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15F5DD7229473FBF003B5F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ctcu Extension/Ctcu_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q8B34FN8L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ctcu Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ctcu Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hikit.Ctcu.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		15F5DD7529473FBF003B5F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ctcu/Ctcu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q8B34FN8L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ctcu;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hikit.Ctcu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		15F5DD7629473FBF003B5F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ctcu/Ctcu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q8B34FN8L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ctcu;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.hikit.Ctcu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F5DD3A29473FBE003B5F63 /* Build configuration list for PBXProject "Ctcu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F5DD6E29473FBF003B5F63 /* Debug */,
+				15F5DD6F29473FBF003B5F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F5DD7029473FBF003B5F63 /* Build configuration list for PBXNativeTarget "Ctcu Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F5DD7129473FBF003B5F63 /* Debug */,
+				15F5DD7229473FBF003B5F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F5DD7429473FBF003B5F63 /* Build configuration list for PBXNativeTarget "Ctcu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F5DD7529473FBF003B5F63 /* Debug */,
+				15F5DD7629473FBF003B5F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15F5DD3729473FBE003B5F63 /* Project object */;
+}
