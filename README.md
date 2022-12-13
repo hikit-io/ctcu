@@ -1,6 +1,8 @@
 # ctcu
 Copy title and url to json on webpage for safari extension. 
 
+Of course, you can also use shortcuts directly：https://www.icloud.com/shortcuts/6d9f3125006347dea90b1cc0b18c68a1
+
 # Usage
 
 1. Click extension button
