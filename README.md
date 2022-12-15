@@ -1,3 +1,4 @@
+![Icon@4x](https://user-images.githubusercontent.com/42961884/207953778-81fcd22f-1e88-4d5a-b0a6-b6e1094b0f1e.png)
 # ctcu
 Copy title and url to json on webpage for safari extension. 
 
